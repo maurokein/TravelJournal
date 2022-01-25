@@ -5,7 +5,7 @@ export default [
         googleMapsUrl: "https://www.google.com/maps/place/Parthenon/@37.9715285,23.7267166,17z/data=!3m1!4b1!4m5!3m4!1s0x14a1bd19ca39ee61:0x1b3fa079b878a218!8m2!3d37.9715285!4d23.7267166",
         startDate:"21 Feb, 2016",
         endDate:"25 Feb, 2016",
-        description: "The Parthenon is a former temple on the Athenian Acropolis, Greece, dedicated to the goddess Athena, whom the people of Athens considered their patroness. Construction started in 447 BC when the Delian League was at the peak of its power. It was completed in 438 BC, although decoration of the building continued until 432 BC. It is the most important surviving building of Classical Greece, generally considered the zenith of the Doric order.",
+        description: "The Parthenon is a former temple on the Athenian Acropolis, Greece, dedicated to the goddess Athena, whom the people of Athens considered their patroness. Construction started in 447 BC when the Delian League was at the peak of its power. It was completed in 438 BC.",
         imageUrl: "parthenon.jpg"
     },
     {
@@ -41,7 +41,7 @@ export default [
         googleMapsUrl: "https://www.google.com/maps/place/Non-Catholic+Cemetery+Of+Rome+Cimitero+Acattolico+di+Roma/@41.8763105,12.4794911,17z/data=!3m1!4b1!4m5!3m4!1s0x132f602c343371a7:0x84c78399624f5d9b!8m2!3d41.8763105!4d12.4794911",
         startDate: "5 Mar, 2016",
         endDate: "6 Mar, 2016",
-        description: "Cimitero Acattolico of Rome, often referred to as the Cimitero dei protestanti (Protestant Cemetery) or Cimitero Inglese (English Cemetery), is a private cemetery in the rione of Testaccio in Rome. It is near Porta San Paolo and adjacent to the Pyramid of Cestius, a small-scale Egyptian-style pyramid built between 18 and 12 BC as a tomb and later incorporated into the section of the Aurelian Walls that borders the cemetery. ",
+        description: "Protestant Cemetery of Rome is a private cemetery in the rione of Testaccio . It is near Porta San Paolo and adjacent to the Pyramid of Cestius, a small-scale Egyptian-style pyramid built between 18 and 12 BC as a tomb and later incorporated into the section of the Aurelian Walls that borders the cemetery. ",
         imageUrl: "protestancemetery.jpg"
     }
 ]

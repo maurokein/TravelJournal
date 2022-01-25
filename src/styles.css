@@ -2,19 +2,42 @@
 
 *{
     box-sizing: border-box;
+    /* tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. */
     margin: 0;
     padding: 0;
-
-    /* tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. */
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    background-color: rgb(245, 222, 191);
+}
+    /*RESPONSIVE INSTRUCTIONS*/
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .container--title {
+      animation: App-logo-spin infinite 20s linear;
+    }
+    
+  }
+  @media(max-widht: 767px){
+    .places--list{
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  }
+  @media(max-width: 574px){
+    .places--list{
+      width: 100%;
+    }
+  }
+
 
 /* HEADER STYLES */
 
 .container{
     width: 100%;
     height: 100px;
-    background-color: #F55A5A;
+    background-color: #df7676;
     display: flex;
     padding: 30px 25px;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.25);
@@ -33,32 +56,72 @@
 }
 
 /* MAIN SECTION STYLES */
+
 .places--list{
     width: 600px;
-    font-size: 12px;       
-    position: relative;        
-    flex-direction: column; 
+    font-size: 12px; 
+    margin: 0 auto;     /* !!!!!!!!!!THIS IS THE FUCCCKKKINGGG AMAZING PROPERTY, FOR THE GOD´S SAKE!!!!!!!!!! */  
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+
+}
+
+.place{
+    background-color: rgb(192, 157, 157);
+    border-style: solid rgb(206, 176, 176);
+    border-radius: 9px;
     align-items: center;
-    margin-left: 325px;
+    justify-content: center;
 }
 
 .place--image{
-    width:55%;
-    height: 225px;
+    width:50%;
     margin-right:2%;
     float: left;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height: 230px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
 }
 
 .place--data{
-    width:40%;
+    width:45%;
     float: right;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 12px;
+    margin-right: 12px;
 }
 
-/* .place--data__description{
-    font-family: 'Poppins', sans-serif;
+.place--data__location{
+    margin-bottom: 8px;
+    color: rgb(78, 76, 76);
 }
- */
+
+.place--data__location > i{
+    margin-right: 5px;
+}
+
+.place--data__title{
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.place--data__dateStamp{
+    color:rgb(129, 119, 119)
+}
+
+.place--data__description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 6px;
+    padding-bottom: 20px;
+    color:rgb(85, 74, 74)
+}
+
+.maplink{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(26, 22, 22);
+}
+
