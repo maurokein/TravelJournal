@@ -42,6 +42,6 @@ export default [
         startDate: "5 Mar, 2016",
         endDate: "6 Mar, 2016",
         description: "Protestant Cemetery of Rome is a private cemetery in the rione of Testaccio . It is near Porta San Paolo and adjacent to the Pyramid of Cestius, a small-scale Egyptian-style pyramid built between 18 and 12 BC as a tomb and later incorporated into the section of the Aurelian Walls that borders the cemetery. ",
-        imageUrl: "protestancemetery.jpg"
+        imageUrl: "protestancemeterypyramid.jpg"
     }
 ]
